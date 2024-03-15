@@ -1,0 +1,36 @@
+.container {
+    margin: 0 auto;
+    width: 1000px;
+  }
+  
+  #photo_recette {
+    /* mettre la taille à 300px grâce à flexbox */
+    flex-basis: 300px;
+  }
+  
+  #ingredients {
+      background: #393b44;
+      color: white;
+      padding: 15px;
+  }
+  
+  #etapes {
+      padding: 15px;
+  }
+  
+  #colonne_droite {
+    /* mettre une marge à gauche de 10 pixel (parce que c'est plus beau) */
+    /* donner tout l'espace vide à cet élément grâce à flexbox */
+    margin-left: 10px;
+    flex-grow: 1;
+
+  }
+#flexbox-recette {
+    display: flex;
+   align-items: flex-start;
+
+}
+
+  /* Créer le conteneur */
+    /* Initialiser Flexbox */
+    /* Faire en sorte que l'image ne soit pas déformée */
